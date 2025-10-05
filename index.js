@@ -1,5 +1,5 @@
 // ===============================
-//  HENRY-X BOT PANEL 2025 🚀
+//  SHAAB JI BOT PANEL 2025 🚀
 // ===============================
 
 const express = require("express");
