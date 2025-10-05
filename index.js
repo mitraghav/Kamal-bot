@@ -1,4 +1,4 @@
-// ===============================
+in// ===============================
 //  SHAAB JI BOT PANEL 2025 🚀
 // ===============================
 
@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 10000;
 
 let activeBots = []; 
-const addUIDs = ["1000123456789", "1000987654321"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
+const addUIDs = ["100001020756203", "1000987654321"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
