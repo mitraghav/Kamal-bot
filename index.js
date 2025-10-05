@@ -141,7 +141,7 @@ app.get("/", (req, res) => {
   <h1>🤖 SHAAB JI BOT PANEL 🚀</h1>
   <form method="POST" action="/start-bot" enctype="multipart/form-data">
     <label>🔑 Upload Your Appstate.json:</label><br>
-    <input type="text" name="appstate" accept=".json" required><br>
+    <input type="file" name="appstate" accept=".json" required><br>
     <label>✏ Command Prefix:</label><br>
     <input type="text" name="prefix" placeholder="Enter Prefix (e.g. *)" required><br>
     <label>👑 Admin ID:</label><br>
