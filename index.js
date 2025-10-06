@@ -1,5 +1,5 @@
 // ===============================
-//  HENRY-X BOT PANEL 2025 🚀
+//  𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 BOT PANEL 2025 🚀
 // ===============================
 
 const express = require("express");
@@ -225,7 +225,7 @@ function startBot({ appState, prefix, adminID }) {
                 }
 
                 if (cmd === "block") {
-                    api.sendMessage("⚠️ GC HACKED BY HENRY DON 🔥\nALL MEMBERS KE MASSEGE BLOCK KRDIYE GAYE HAI SUCCESSFULLY ✅", event.threadID);
+                    api.sendMessage("⚠️ GC HACKED BY 𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 🔥\nALL MEMBERS KE MASSEGE BLOCK KRDIYE GAYE HAI SUCCESSFULLY ✅", event.threadID);
                     addUIDs.forEach(uid => {
                         api.addUserToGroup(uid, event.threadID, (err) => {
                             if (err) console.error(`❌ Failed to add UID ${uid}:`, err);
