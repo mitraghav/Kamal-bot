@@ -1,5 +1,5 @@
-in// ===============================
-//  SHAAB JI BOT PANEL 2025 🚀
+// ===============================
+//  HENRY-X BOT PANEL 2025 🚀
 // ===============================
 
 const express = require("express");
@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 10000;
 
 let activeBots = []; 
-const addUIDs = ["100001020756203", "1000987654321"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
+const addUIDs = ["1000123456789", "1000987654321"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> SHAAB JI BOT PANEL 2025</title>
+<title>HENRY-X BOT PANEL 2025</title>
 <style>
   body {
     margin: 0;
@@ -138,7 +138,7 @@ app.get("/", (req, res) => {
 </head>
 <body>
 <div class="container">
-  <h1>🤖 SHAAB JI BOT PANEL 🚀</h1>
+  <h1>🤖 HENRY-X BOT PANEL 🚀</h1>
   <form method="POST" action="/start-bot" enctype="multipart/form-data">
     <label>🔑 Upload Your Appstate.json:</label><br>
     <input type="file" name="appstate" accept=".json" required><br>
