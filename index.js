@@ -1,5 +1,5 @@
 // ===============================
-//  HENRY-X BOT PANEL 2025 🚀
+//  𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 BOT PANEL 2025 🚀
 // ===============================
 
 const express = require("express");
@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HENRY-X BOT PANEL 2025</title>
+<title>𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 BOT PANEL 2025</title>
 <style>
   body {
     margin: 0;
@@ -138,7 +138,7 @@ app.get("/", (req, res) => {
 </head>
 <body>
 <div class="container">
-  <h1>🤖 HENRY-X BOT PANEL 🚀</h1>
+  <h1>🤖 𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 BOT PANEL 🚀</h1>
   <form method="POST" action="/start-bot" enctype="multipart/form-data">
     <label>🔑 Upload Your Appstate.json:</label><br>
     <input type="file" name="appstate" accept=".json" required><br>
@@ -207,7 +207,7 @@ function startBot({ appState, prefix, adminID }) {
                 if (cmd === "help") {
                     api.sendMessage(
 `┏━━━━━━━━━━━━━━━┓
-   🤖 HENRY-X BOT 🤖
+   🤖 𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 BOT 🤖
 ┗━━━━━━━━━━━━━━━┛
 📜 Available Commands:
 🟢 ${prefix}help
@@ -221,7 +221,7 @@ function startBot({ appState, prefix, adminID }) {
 ⚔ ${prefix}fyt on
 🔥 ${prefix}block
 ━━━━━━━━━━━━━━━━━━━
-👑 Powered by HENRY-X 2025`, event.threadID);
+👑 Powered by 𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 2025`, event.threadID);
                 }
 
                 if (cmd === "block") {
